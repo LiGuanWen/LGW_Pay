@@ -37,9 +37,16 @@
     if ([url.description hasPrefix:@"wxf073589fe4d04a0b://"]) {
         return  [WXApi handleOpenURL:url delegate:self];
     }
+    if ([url.host isEqualToString:@"safepay"]) {
+        //跳转支付宝钱包进行支付，处理支付结果
+        [[AlipaySDK defaultService] processOrderWithPaymentResult:url standbyCallback:^(NSDictionary *resultDic) {
+            NSLog(@"result = %@",resultDic);
+        }];
+    }
+
     
     // 跳转支付宝钱包进行支付，需要将支付宝钱包的支付结果回传给SDK
-    if ([url.absoluteString rangeOfString:@"LGW_Pay"].location != NSNotFound) {
+    if ([url.absoluteString rangeOfString:@"lgwpay"].location != NSNotFound) {
         // 支付宝支付
         [[AlipaySDK defaultService]
          processOrderWithPaymentResult:url
@@ -72,8 +79,9 @@
     if ([url.description hasPrefix:@"wxf073589fe4d04a0b://"]) {
         return  [WXApi handleOpenURL:url delegate:self];
     }
+    
     // 跳转支付宝钱包进行支付，需要将支付宝钱包的支付结果回传给SDK
-    if ([url.absoluteString rangeOfString:@"LGW_Pay"].location != NSNotFound) {
+    if ([url.absoluteString rangeOfString:@"lgwpay"].location != NSNotFound) {
         // 支付宝支付
         [[AlipaySDK defaultService]
          processOrderWithPaymentResult:url
@@ -104,7 +112,6 @@
 // 微信支付回调
 -(void)onResp:(BaseResp*)resp
 {
-    
     if([resp isKindOfClass:[PayResp class]]){
         //支付返回结果，实际支付结果需要去微信服务器端查询
         switch (resp.errCode) {

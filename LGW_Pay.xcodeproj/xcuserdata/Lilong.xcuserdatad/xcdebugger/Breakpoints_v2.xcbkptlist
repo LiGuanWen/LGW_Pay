@@ -10,11 +10,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "LGW_Pay/AppDelegate.m"
-            timestampString = "482946282.596763"
+            timestampString = "482983019.595804"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "42"
-            endingLineNumber = "42"
+            startingLineNumber = "36"
+            endingLineNumber = "36"
             landmarkName = "-application:openURL:sourceApplication:annotation:"
             landmarkType = "5">
          </BreakpointContent>

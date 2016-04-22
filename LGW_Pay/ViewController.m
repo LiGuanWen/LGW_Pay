@@ -81,7 +81,7 @@
     order.showUrl = @"m.alipay.com";
     
     //应用注册scheme,在AlixPayDemo-Info.plist定义URL types
-    NSString *appScheme = @"LGW_Pay";
+    NSString *appScheme = @"lgwpay";
     
     //将商品信息拼接成字符串
     NSString *orderSpec = [order description];
@@ -131,6 +131,7 @@
 }
 // 苹果支付
 - (IBAction)applePayAction:(id)sender {
+    
 }
 // 银联支付
 - (IBAction)unionPayAction:(id)sender {
