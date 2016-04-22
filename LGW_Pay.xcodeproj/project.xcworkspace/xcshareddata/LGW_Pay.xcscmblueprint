@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "44409C68D04BA196654EAFEE0EA8FA3B210A1781",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "45E4D9455C0EC64C12427D42868A957CDC4281B0" : 0,
+    "44409C68D04BA196654EAFEE0EA8FA3B210A1781" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "3D76C399-787D-4751-A0F2-B3B32080B18A",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "45E4D9455C0EC64C12427D42868A957CDC4281B0" : "..",
+    "44409C68D04BA196654EAFEE0EA8FA3B210A1781" : "LGW_Pay\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "LGW_Pay",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "LGW_Pay.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/LiGuanWen\/LGW_Pay.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "44409C68D04BA196654EAFEE0EA8FA3B210A1781"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "192.168.8.138:iOS\/PPCar.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "45E4D9455C0EC64C12427D42868A957CDC4281B0"
+    }
+  ]
+}

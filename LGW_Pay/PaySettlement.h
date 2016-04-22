@@ -27,8 +27,12 @@
  libz.tbd
  SystemConfiguration.framework
 */
+
 /*
   集成  支付宝sdk
+  设置一下search paths
+  build setting ->搜索search path，然后你懂的
+ 
   AlipaySDK.bundle
   AlipaySDK.framework
  
@@ -43,4 +47,26 @@
   Foundation.framework
   CFNetwork.framework
   CoreMotion.framework
+*/
+
+/*
+ 集成 银联支付
+ 
+ ①    支持纯无卡交易静态库，以下简称UPPayPlugin，包含文件： (本demo)
+ 
+ UPPayPlugin.h
+ UPPayPluginDelegate.h
+ libUPPayPlugin.a
+ 
+ QuartzCore.framework
+ AudioToolbox.framework
+ 
+ ②    支持纯无卡交易和VIPOS音频口支付静态库,以下简称UPPayPluginPro，包含文件：
+
+ UPPayPluginPro.h
+ UPPayPluginDelegate.h
+ libUPPayPluginPro.a
+ 
+ QuartzCore.framework
+ Security.framework
 */

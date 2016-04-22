@@ -7,9 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FD9967A11CC9CE9000167A92 /* libUPPayPlugin.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FD9967A01CC9CE9000167A92 /* libUPPayPlugin.a */; };
 		FDDC01B31CC8B8A900366F11 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FDDC01B21CC8B8A900366F11 /* main.m */; };
 		FDDC01B61CC8B8A900366F11 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FDDC01B51CC8B8A900366F11 /* AppDelegate.m */; };
-		FDDC01B91CC8B8A900366F11 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FDDC01B81CC8B8A900366F11 /* ViewController.m */; };
+		FDDC01B91CC8B8A900366F11 /* ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = FDDC01B81CC8B8A900366F11 /* ViewController.mm */; };
 		FDDC01BC1CC8B8A900366F11 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDDC01BA1CC8B8A900366F11 /* Main.storyboard */; };
 		FDDC01BE1CC8B8A900366F11 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDDC01BD1CC8B8A900366F11 /* Assets.xcassets */; };
 		FDDC01C11CC8B8A900366F11 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDDC01BF1CC8B8A900366F11 /* LaunchScreen.storyboard */; };
@@ -35,7 +36,7 @@
 		FDDC02C61CC9195400366F11 /* Order.m in Sources */ = {isa = PBXBuildFile; fileRef = FDDC02C31CC9195400366F11 /* Order.m */; };
 		FDDC02C71CC9195400366F11 /* Product.m in Sources */ = {isa = PBXBuildFile; fileRef = FDDC02C51CC9195400366F11 /* Product.m */; };
 		FDDC032B1CC9199D00366F11 /* base64.m in Sources */ = {isa = PBXBuildFile; fileRef = FDDC031B1CC9199D00366F11 /* base64.m */; };
-		FDDC032C1CC9199D00366F11 /* DataSigner.m in Sources */ = {isa = PBXBuildFile; fileRef = FDDC031E1CC9199D00366F11 /* DataSigner.m */; };
+		FDDC032C1CC9199D00366F11 /* DataSigner.mm in Sources */ = {isa = PBXBuildFile; fileRef = FDDC031E1CC9199D00366F11 /* DataSigner.mm */; };
 		FDDC032D1CC9199D00366F11 /* DataVerifier.m in Sources */ = {isa = PBXBuildFile; fileRef = FDDC03201CC9199D00366F11 /* DataVerifier.m */; };
 		FDDC032E1CC9199D00366F11 /* MD5DataSigner.m in Sources */ = {isa = PBXBuildFile; fileRef = FDDC03221CC9199D00366F11 /* MD5DataSigner.m */; };
 		FDDC032F1CC9199D00366F11 /* NSDataEx.m in Sources */ = {isa = PBXBuildFile; fileRef = FDDC03241CC9199D00366F11 /* NSDataEx.m */; };
@@ -64,12 +65,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FD99679D1CC9CE9000167A92 /* UPPayPlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPPayPlugin.h; sourceTree = "<group>"; };
+		FD99679E1CC9CE9000167A92 /* UPPayPluginDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPPayPluginDelegate.h; sourceTree = "<group>"; };
+		FD9967A01CC9CE9000167A92 /* libUPPayPlugin.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libUPPayPlugin.a; sourceTree = "<group>"; };
 		FDDC01AE1CC8B8A900366F11 /* LGW_Pay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LGW_Pay.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDDC01B21CC8B8A900366F11 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		FDDC01B41CC8B8A900366F11 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		FDDC01B51CC8B8A900366F11 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		FDDC01B71CC8B8A900366F11 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		FDDC01B81CC8B8A900366F11 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FDDC01B81CC8B8A900366F11 /* ViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ViewController.mm; sourceTree = "<group>"; };
 		FDDC01BB1CC8B8A900366F11 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FDDC01BD1CC8B8A900366F11 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FDDC01C01CC8B8A900366F11 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -186,7 +190,7 @@
 		FDDC031B1CC9199D00366F11 /* base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = base64.m; sourceTree = "<group>"; };
 		FDDC031C1CC9199D00366F11 /* config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = config.h; sourceTree = "<group>"; };
 		FDDC031D1CC9199D00366F11 /* DataSigner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataSigner.h; sourceTree = "<group>"; };
-		FDDC031E1CC9199D00366F11 /* DataSigner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataSigner.m; sourceTree = "<group>"; };
+		FDDC031E1CC9199D00366F11 /* DataSigner.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = DataSigner.mm; sourceTree = "<group>"; };
 		FDDC031F1CC9199D00366F11 /* DataVerifier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataVerifier.h; sourceTree = "<group>"; };
 		FDDC03201CC9199D00366F11 /* DataVerifier.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataVerifier.m; sourceTree = "<group>"; };
 		FDDC03211CC9199D00366F11 /* MD5DataSigner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MD5DataSigner.h; sourceTree = "<group>"; };
@@ -208,6 +212,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD9967A11CC9CE9000167A92 /* libUPPayPlugin.a in Frameworks */,
 				FDDC03361CC91CF900366F11 /* libssl.a in Frameworks */,
 				FDDC02141CC90E9500366F11 /* CoreMotion.framework in Frameworks */,
 				FDDC02121CC90E8C00366F11 /* CFNetwork.framework in Frameworks */,
@@ -244,6 +249,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FD99679C1CC9CE9000167A92 /* inc */ = {
+			isa = PBXGroup;
+			children = (
+				FD99679D1CC9CE9000167A92 /* UPPayPlugin.h */,
+				FD99679E1CC9CE9000167A92 /* UPPayPluginDelegate.h */,
+			);
+			path = inc;
+			sourceTree = "<group>";
+		};
+		FD99679F1CC9CE9000167A92 /* libs */ = {
+			isa = PBXGroup;
+			children = (
+				FD9967A01CC9CE9000167A92 /* libUPPayPlugin.a */,
+			);
+			path = libs;
+			sourceTree = "<group>";
+		};
 		FDDC01A51CC8B8A900366F11 = {
 			isa = PBXGroup;
 			children = (
@@ -283,7 +305,7 @@
 				FDDC01B41CC8B8A900366F11 /* AppDelegate.h */,
 				FDDC01B51CC8B8A900366F11 /* AppDelegate.m */,
 				FDDC01B71CC8B8A900366F11 /* ViewController.h */,
-				FDDC01B81CC8B8A900366F11 /* ViewController.m */,
+				FDDC01B81CC8B8A900366F11 /* ViewController.mm */,
 				FDDC01FC1CC8C73000366F11 /* PaySettlement.h */,
 				FDDC01FD1CC8C73000366F11 /* PaySettlement.m */,
 				FDDC02C11CC9195400366F11 /* AliPayClasses */,
@@ -356,6 +378,8 @@
 		FDDC01E71CC8BF3200366F11 /* UnionPaySDK */ = {
 			isa = PBXGroup;
 			children = (
+				FD99679C1CC9CE9000167A92 /* inc */,
+				FD99679F1CC9CE9000167A92 /* libs */,
 			);
 			path = UnionPaySDK;
 			sourceTree = "<group>";
@@ -482,7 +506,7 @@
 				FDDC031B1CC9199D00366F11 /* base64.m */,
 				FDDC031C1CC9199D00366F11 /* config.h */,
 				FDDC031D1CC9199D00366F11 /* DataSigner.h */,
-				FDDC031E1CC9199D00366F11 /* DataSigner.m */,
+				FDDC031E1CC9199D00366F11 /* DataSigner.mm */,
 				FDDC031F1CC9199D00366F11 /* DataVerifier.h */,
 				FDDC03201CC9199D00366F11 /* DataVerifier.m */,
 				FDDC03211CC9199D00366F11 /* MD5DataSigner.h */,
@@ -634,8 +658,8 @@
 				FDDC03311CC9199D00366F11 /* RSADataSigner.m in Sources */,
 				FDDC032E1CC9199D00366F11 /* MD5DataSigner.m in Sources */,
 				FDDC032D1CC9199D00366F11 /* DataVerifier.m in Sources */,
-				FDDC01B91CC8B8A900366F11 /* ViewController.m in Sources */,
-				FDDC032C1CC9199D00366F11 /* DataSigner.m in Sources */,
+				FDDC01B91CC8B8A900366F11 /* ViewController.mm in Sources */,
+				FDDC032C1CC9199D00366F11 /* DataSigner.mm in Sources */,
 				FDDC032F1CC9199D00366F11 /* NSDataEx.m in Sources */,
 				FDDC01FE1CC8C73000366F11 /* PaySettlement.m in Sources */,
 				FDDC02C61CC9195400366F11 /* Order.m in Sources */,
@@ -795,7 +819,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ENABLE_BITCODE = YES;
+				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/LGW_Pay/SDK/AliPaySDK",
@@ -814,6 +838,7 @@
 					"$(PROJECT_DIR)/LGW_Pay/SDK/WechatSDK",
 					"$(PROJECT_DIR)",
 					"$(PROJECT_DIR)/LGW_Pay/SDK/AliPaySDK",
+					"$(PROJECT_DIR)/LGW_Pay/SDK/UnionPaySDK/libs",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.diqidaimu.LGW-Pay";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -824,7 +849,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ENABLE_BITCODE = YES;
+				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/LGW_Pay/SDK/AliPaySDK",
@@ -843,6 +868,7 @@
 					"$(PROJECT_DIR)/LGW_Pay/SDK/WechatSDK",
 					"$(PROJECT_DIR)",
 					"$(PROJECT_DIR)/LGW_Pay/SDK/AliPaySDK",
+					"$(PROJECT_DIR)/LGW_Pay/SDK/UnionPaySDK/libs",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.diqidaimu.LGW-Pay";
 				PRODUCT_NAME = "$(TARGET_NAME)";
