@@ -41,7 +41,6 @@ Pod::Spec.new do |s|
   s.license      = "MIT (example)"
   # s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
 
-
   # ――― Author Metadata  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
   #  Specify the authors of the library, with email addresses. Email addresses
@@ -52,7 +51,7 @@ Pod::Spec.new do |s|
   #  profile URL.
   #
 
-  s.author             = { "第七代目" => "liguanwen@quhepai.com" }
+  s.author             = { "第七代目" => "1219885363@qq.com" }
   # Or just: s.author    = "第七代目"
   # s.authors            = { "第七代目" => "liguanwen@quhepai.com" }
   # s.social_media_url   = "http://twitter.com/第七代目"
@@ -65,7 +64,6 @@ Pod::Spec.new do |s|
 
   # s.platform     = :ios
   # s.platform     = :ios, "5.0"
-
   #  When using multiple platforms
   # s.ios.deployment_target = "5.0"
   # s.osx.deployment_target = "10.7"
@@ -79,7 +77,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "http://EXAMPLE/LGW_Pay.git", :tag => "0.0.1" }
+  s.source       = { :git => "https://github.com/LiGuanWen/LGW_Pay.git", :tag => "0.0.1" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
