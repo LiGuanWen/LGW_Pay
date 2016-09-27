@@ -34,10 +34,9 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
 }
+
 // 支付宝支付
 - (IBAction)aliPayAction:(id)sender {
-    
-    
     /*
      *prodcut实例并初始化订单信息
      */
@@ -144,8 +143,7 @@
 }
 
 #pragma mark UPPayPluginResult
-- (void)UPPayPluginResult:(NSString *)result
-{
+- (void)UPPayPluginResult:(NSString *)result{
     NSString* msg = [NSString stringWithFormat:@"%@", result];
     NSLog(@"msg%@",msg);
     
